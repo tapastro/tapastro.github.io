@@ -9,6 +9,8 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    airspace (1.0.1)
+      redis (>= 3.3.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -244,6 +246,7 @@ GEM
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    redis (4.5.1)
     rexml (3.2.5)
     rouge (3.26.0)
     ruby-enum (0.9.0)
@@ -279,9 +282,9 @@ PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
+  airspace
   github-pages
   jekyll-feed (~> 0.12)
-  minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data
   webrick
